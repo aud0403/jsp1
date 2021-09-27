@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&family=Gowun+Batang&display=swap');
+td.td, label{
+    border:none;
+    background-color: cornsilk;
+    color: darkgoldenrod;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Dokdo', cursive;
+    font-size: 25px; 
+}
+
+input,select{
+    border: 1px solid burlywood;
+    padding: 5px;
+    border-radius: 6px;
+   
+}
+input[type=submit],input[type=reset],input[type=button]{
+    cursor:pointer;
+    border: none;
+    background-color:cornsilk;
+    color: darkgoldenrod;
+    padding: 7px 15px;
+    margin: 7px 15px;
+    font-size: 1.5em;
+    font-family: 'Dokdo', cursive;
+    
+}
+
+input[type=submit]:hover,input[type=reset]:hover,input[type=button]:hover{
+    background-color: aqua;
+}
+
+input[type=text], input[type=password], input[type=email]{
+width: 70%;
+}
+
+/* UI구현 레이아웃,색상, 글꼴 */
